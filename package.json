@@ -1,0 +1,23 @@
+{
+    "name": "discord-adb",
+    "version": "1.0.0",
+    "description": "Discord active developer badge",
+    "main": "main.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "DJAVELIN_",
+    "license": "ISC",
+    "dependencies": {
+        "discord.js": "^14.17.3",
+        "dotenv": "^16.4.7"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/MrDJAVELIN/discord-adb.git"
+    },
+    "bugs": {
+        "url": "https://github.com/MrDJAVELIN/discord-adb/issues"
+    },
+    "homepage": "https://github.com/MrDJAVELIN/discord-adb#readme"
+}
