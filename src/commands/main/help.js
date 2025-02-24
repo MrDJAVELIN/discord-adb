@@ -6,11 +6,7 @@ module.exports = {
         const emb = new EmbedBuilder();
         emb.setTitle("Help")
             .setDescription("COMMANDS:")
-            .addFields({ name: "ping", value: "ping command" })
-            .addFields({
-                name: "</ping:1337082377645588622>",
-                value: "</ping:1337082377645588622> ping command",
-            });
+            .addFields({ name: "/ping", value: "ping command" })
 
         await interaction.reply({ ephemeral: true, embeds: [emb] });
     },
