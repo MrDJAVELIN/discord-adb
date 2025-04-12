@@ -14,7 +14,7 @@ function loadCommands(dir) {
     for (const file of files) {
         const fullPath = path.join(dir, file);
         if (fs.statSync(fullPath).isDirectory()) {
-            loadCommands(fullPath); // Рекурсивно загружаем команды из подпапок
+            loadCommands(fullPath);
         } else if (file.endsWith(".js")) {
             const command = require(fullPath);
             commands.push(command.data.toJSON());
